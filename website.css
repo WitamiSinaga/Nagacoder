@@ -1,21 +1,68 @@
-body {
-    background-color: hsl(204, 5%, 82%);
-}
-.semua {
+.pembungkus {
     width: 800px;
-    background-color: rgb(245, 245, 245);
     margin: auto;
+    background-color: rgb(185, 219, 219);
 }
-.header {
-    padding: 3px;
-    padding-left: 20px;
+
+.header .judul {
+    padding: 20px;
+    font-size: 40px;
     font-weight: bold;
 }
-.link a {
-    margin-top: 200px;
-    text-decoration: none;
+
+.header ul{
+    margin-left: -30px;
+    margin-top: -50px;
 
 }
-img {
-    height: 500px;
+
+.header ul li {
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: -50px;
+}
+
+.header a  {
+    text-decoration: none;
+    color: salmon;
+    
+}
+
+.header a:hover {
+    color: black;
+}
+
+.gambar {
+    height: 250px;
+    background-image: url(kampus.jpg);
+    background-size: cover;
+    background-position: 0 -150px;
+    border-top: 5px solid rgb(246, 150, 106);
+    border-bottom: 5px solid rgb(41, 25, 24);
+}
+
+.konten {
+    padding: 20px;
+    margin-top: -10px;
+}
+.konten .judulisi h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.konten .penulis {
+    margin-top: -25px;
+    font-size: 12px;
+}
+
+.footer{
+    background-color: black;
+    padding: 5px;
+}
+.footer .copy {
+
+
+    color: white;
+    font-style: arial;
+    text-align: center;
 }
