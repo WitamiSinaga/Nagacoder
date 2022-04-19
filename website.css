@@ -1,0 +1,21 @@
+body {
+    background-color: hsl(204, 5%, 82%);
+}
+.semua {
+    width: 800px;
+    background-color: rgb(245, 245, 245);
+    margin: auto;
+}
+.header {
+    padding: 3px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.link a {
+    margin-top: 200px;
+    text-decoration: none;
+
+}
+img {
+    height: 500px;
+}
